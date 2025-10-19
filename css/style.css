@@ -107,3 +107,92 @@
     flex-shrink: 0;
     background-color: #46A358;
 }
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container {
+    padding: 30px 120px 52px;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display : flex;
+    justify-content: space-between;
+    align-items: start;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.50);
+    margin-bottom: 12px;
+}
+.list{
+    display: flex;
+    gap: 50px;
+    font-family: 'Cera Pro';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: normal;
+    color: #3D3D3D
+}
+.list-item{
+    padding:8px 0 25px;
+    border-bottom: 3px solid transparent;
+}
+.active{
+    font-weight: 700;
+    border-color: #46A358;
+}
+.btn{
+    border-radius: 6px;
+    background-color: #46A358;
+    color: #FFFFFF;
+    padding: 7px 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: column;
+    color: #727272;
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.description{
+    color: #727272;
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+.welcome-text{
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 114.286% */
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+.btn-shop{
+    border-radius: 6px;
+    background-color: #46A358;
+    color: #FFFFFF;
+    padding: 9px 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    flex-shrink: 0;
+}
