@@ -384,7 +384,7 @@
     font-weight: 300;
     line-height: 16px;
 }
-.active pagination-item{
+.active-pagination{
     color: #FFF;
     background-color: #46A358;
     font-family: "Cera Pro Regular";
