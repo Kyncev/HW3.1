@@ -78,7 +78,7 @@
 }
 .categoriesListItemActive{
     color: #46A358;
-    font-family: "Cera Pro";
+    font-family: "Cera Pro Regular";
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
@@ -113,7 +113,7 @@
 }
 .tabsItemActive{
     color: #46A358;
-    font-family: "Cera Pro";
+    font-family: "Cera Pro Regular";
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
@@ -195,4 +195,5 @@
     border-color: #46A358;
     background-color: #46A358;
     color: #FFFFFF;
+    font-family: "Cera Pro Regular";
 }
