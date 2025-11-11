@@ -173,15 +173,14 @@
     font-weight: 400;
     font-size: 16px;
     color: #3D3D3D;
+    margin-bottom: 6px;
 }
 .card-price {
     display: inline;
     color: #46A358;
     font-family: "Cera Pro Regular";
     font-weight: 700;
-    margin-bottom: 6px;
     margin-right: 14px;
-    display: inline;
 }
 .card-span {
     color: #A5A5A5;
@@ -190,6 +189,10 @@
 }
 .card-cont {
     position: relative;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 6px;
 }
 .card-icons {
     display: none;
