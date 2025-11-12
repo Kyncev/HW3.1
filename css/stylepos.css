@@ -155,16 +155,14 @@
     transition: box-shadow 0.3s ease, transform 0.3s ease, border-top 0.3s ease;
     border-top: 2px solid transparent;
 }
+.cardimg{
+    background-color: #FBFBFB;
+    padding: 30px 4px 20px;
+    position: relative;
+    overflow: hidden;
+}
 .card:hover {
     border-top: 2px solid #46A358;
-}
-.card-link {
-    text-decoration: none;
-    font-family: "Cera Pro Regular";
-    font-weight: 400;
-    font-size: 16px;
-    color: #3D3D3D;
-    cursor: pointer;
 }
 .card-name {
     display: inline;
@@ -187,18 +185,12 @@
     text-decoration: line-through;
     display: inline;
 }
-.card-cont {
-    position: relative;
-    display: flex;
-    align-items: start;
-    flex-direction: column;
-    gap: 6px;
-}
 .card-icons {
-    display: none;
+    /* display: none; */
     position: absolute;
-    top: 270px;
+    top: 330px;
     left: 70px;
+    transition: top .3s ease-in-out;
 }
 .card-icons > svg {
     margin-right: 20px;
@@ -207,8 +199,9 @@
     fill: #46a358;
 }
 .card:hover .card-icons {
-    display: block;
+    /* display: block; */
     cursor: pointer;
+    top: 270px;
 }
 .card-sale {
     top: 14px;
