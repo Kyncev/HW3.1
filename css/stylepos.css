@@ -210,6 +210,12 @@
 .card-icons .card-icons-btn:hover svg path {
     fill: #46a358;
 }
+.card-icons .card-icons-btn:hover {
+    background-color: #FFFFFF;
+}
+.card-icons .card-icons-btn {
+    transition: background-color .2s ease-in-out;
+}
 .card:hover .card-icons {
     /* display: block; */
     cursor: pointer;
