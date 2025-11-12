@@ -137,9 +137,6 @@
     padding: 5px;
     background-color: transparent;
 }
-.rsMain{
-    display: flex;
-}
 .flowers__grid{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -189,19 +186,34 @@
     /* display: none; */
     position: absolute;
     top: 330px;
-    left: 45px;
-    transition: top .3s ease-in-out;
+    left: 26%;
+    transition: top .5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
-.card-icons > svg {
-    margin-right: 20px;
+.card-icons-btn{
+    background-color: rgba(255, 255, 255, .5);
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
-.card-icons svg:hover path {
+
+.card-icons .card-icons-btn svg path{
+    transition: fill .2s ease-in-out;
+}
+.card-icons .card-icons-btn:hover svg path {
     fill: #46a358;
 }
 .card:hover .card-icons {
     /* display: block; */
     cursor: pointer;
-    top: 270px;
+    top: 255px;
 }
 .card-sale {
     top: 14px;
