@@ -242,7 +242,7 @@ li {
 }
 .main__smm-network:hover{
     color: #ffffff;
-    background: #46a358;
+    box-shadow: 0 6px 14px rgba(70, 163, 88, 0.35);
     cursor: pointer;
 }
 .main__smm-network:first-child{
