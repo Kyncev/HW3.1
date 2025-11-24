@@ -180,7 +180,7 @@ li {
     line-height: 22px;
 }
 .main__under{
-    padding: 33px 130px 30px 25px;
+    padding: 33px 30px 30px 25px;
     background: #FBFBFB;
     display: flex;
     gap: 160px;
@@ -214,6 +214,10 @@ li {
 .main_nav-item:first-child:first-child:hover{
     cursor: auto;
     color: #3D3D3D;
+}
+.main__smm{
+    display: flex;
+    flex-direction: column;
 }
 .main__smm-h2{
     margin-bottom: 20px;
