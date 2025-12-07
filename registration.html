@@ -3,59 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Резюме</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-         <nav class="nav">
-             <img src="imgs/X.svg" alt="X" class="X">
-         <div class="nav-menu">
-                <div style="color: #3D3D3D; font-size: 20px; font-family: Cera Pro; font-weight: 500; line-height: 16px; word-wrap: break-word">Login</div>
-                <div style="color: #3D3D3D; font-size: 18px; font-family: Cera Pro; font-weight: 250; line-height: 16px; word-wrap: break-word">I</div>
-                <div style="color: #46A358; font-size: 20px; font-family: Cera Pro; font-weight: 500; line-height: 16px; word-wrap: break-word">Register</div>
-            </div>
-    </nav>
+    <div class="close">
+        <button class="btn-close">
+            <img src="imgs/X.svg" alt>
+        </button>
+    </div> 
+    <header class="autif-header">
+        <nav class="autif-nav">
+            <a href="#" class="autif-link">Login</a>
+            <span class="autif-separator">|</span>
+            <a href="#" class="autif-link">Register</a>
+        </nav>
     </header>
-    <main class="main">
-        <div class="container">          
-
-            <p class="text">Enter your email and password to register.</p>
-
-        <section class="hero">
-            <input type="hero-text" placeholder="Username"/>
-            <input type="hero-email" placeholder="Enter your email address"/>
-            <input class="hero-password" type="passworld" placeholder="Password"/>
-            <input class="hero-confirm" placeholder="Confirm Password">
-        </section>
-        <button class="button">Register</button>
-
-        <div class="register_with">
-      
-           <p class="or_reg">
-              <p class="merr"></p>
-              Or register with
-              <p class="merr"></p>
-           </p>
-       
-        </div>
-
-    <div class="button2">
-        <button class="Google"> <img src="imgs/Google.svg"> <a type="#">Continue with Google</a></button>
-        <button class="Facebook"> <img src="imgs/Facebook.svg"> <a type="#">Continue with Facebook</a></button>
-    </div>
-
-    <div class="colorfoot"></div>
-        </div>
+    <main class="autif-main">
+        <p class="autif-subtitle">Enter your email and password to register.</p>
+        <form class="autif-form">
+            <input type="text" class="input" placeholder="Username" required/>
+            <input type="email" class="input" placeholder="Enter your email address" required/>
+            <input type="password" class="input" placeholder="Password" required />
+            <input type="password" class="input" placeholder="Confirm Password" required/>
+            <button type="submit" class="button">Register</button>
+      </form>
     </main>
-    <footer>
+    <footer class="autif-footer">
+      <div class="divider">
+        <p class="autif-subtitle">Or register with</p>
+      </div>
+        <div class="social-buttons">
+            <button class="button-social">
+            <img src="./imgs/Google.svg" alt="Google logo" />
+            Continue with Google
+            </button>
+            <button class="button-social">
+            <img src="./imgs/Facebook.svg" alt="Facebook logo" />
+            Continue with Facebook
+            </button>
+        </div>
+      <hr class="class"/>
     </footer>
-
-
-
-
-
-
-
 </body>
 </html>
