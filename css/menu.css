@@ -367,6 +367,7 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
+    width: fit-content;
 }
 .sidebar{
     display: flex;
